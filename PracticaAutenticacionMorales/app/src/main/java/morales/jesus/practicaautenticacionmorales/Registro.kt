@@ -41,6 +41,17 @@ class Registro : AppCompatActivity() {
 
         errorTv.visibility = View.INVISIBLE
 
+        button.setOnClickListener({
+            if(email.text.isEmpty() || password.text.isEmpty() || confirmPassword.text.isEmpty()){
+                errorTv.text = "Todos los campos deben de ser llenados"
+                errorTv.visibility = View.VISIBLE
+            } else if(!password.text.toString().equals(confirmPassword.text.toString())){ errorTv.text = "Las contraseñas no coinciden"
+                errorTv.visibility = View.VISIBLE
+            }else{
+                errorTv.visibility = View.INVISIBLE
+                signIn(email.text.toString(), password.text.toString())
+            }
+        })
     }
 
     fun signIn(email: String, password: String) {
