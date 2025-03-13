@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PracticaAutenticacionMorales</string>
+    <string name="cerrarSesion">Cerrar Sesion</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="contra">Contraseña</string>
+    <string name="confirmarContra">Confirmar contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="regresar">Regresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="registrate">¡Registrate!</string>
+</resources>

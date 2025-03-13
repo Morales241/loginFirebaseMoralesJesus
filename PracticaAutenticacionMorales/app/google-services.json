@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "211237848878",
+    "project_id": "ejemplologin-df9c1",
+    "storage_bucket": "ejemplologin-df9c1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211237848878:android:471f7193288f9c890a5cbf",
+        "android_client_info": {
+          "package_name": "morales.jesus.practicaautenticacionmorales"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMaKEXFvNVapdc6ALvPtiMjs10NV8wjHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
